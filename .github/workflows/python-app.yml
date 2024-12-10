@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Install dependencies
         run: |
-          echo ${{ secrets.test_secret }}
+          echo ${{ secrets.test_secret }} "bbb"
   
   # build:
 
